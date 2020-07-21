@@ -4,7 +4,7 @@ Note: This application has been made using HTML, Bootstrap and CSS for front end
 
 The aim of this application is to create a platform where users ask questions and experts answer those questions. Some of these questions are either open-ended which means any expert can answer them while other questions and strictly directed to a specific expert. Experts can view the questions directed to them on the "Answer questions" (this tab si only visible to admins) tab of the webpage. As experts answer questions, those questions and their respective answers are then displayed on the homepage for the public to view. 
 
-Key features of this appilication:
+Key features of this appilication: <br />
 -Users can register as well as login. Upon registeration, new user login details are stored in the database. 
 -A session is created for each logged-in user (where an expert or a regular user). 
 -Users can ask questions through the "Ask question" tab. Here, users can type in their question and then pick (through a drop-down list) which expert they want to ask this question to . 
