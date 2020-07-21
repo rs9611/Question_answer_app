@@ -12,5 +12,10 @@ Key features of this appilication: <br />
 -The home page contains all the questions and the answers. For each question, the name of the user who asked the question is displayed and for each answer, the name of the expert who answered the question is displayed. <br />
 -Admins have special access. There is a page called 'User Setup" which only admins can view. On this page, admins can choose which users are experts. So basically, a user intially registers as a regular user and then an admin can make that user an expert if the admin wishes. This action can be reversed as well. In each case, the database is updated and which pages a user and experts can see are also updated. <br />
 
-
-
+Files: <br />
+-Static folder contains the CSS and bootstrap files <br />
+-Templates folder contains all the HTML files <br />
+-app.py is the main file. This is a python file. To run the application, this file needs to be run in order to view the webpage on your local host.  <br />
+-questions.db is the database. <br />
+-database.py contains functions that make a connection to the database (questions.db). These functions are called in the main - app.py file. <br />
+-schema.sql creates all the neccessary tables in the databsse. <br />
